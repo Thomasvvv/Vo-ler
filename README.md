@@ -4,22 +4,22 @@ Backend em Python usando FastAPI para gerenciar a lógica de negócios do sistem
 
 ## Instalação
 
-\`\`\`bash
+```bash
 cd backend
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Executar o servidor
 
-\`\`\`bash
+```bash
 python main.py
-\`\`\`
+```
 
 Ou usando uvicorn diretamente:
 
-\`\`\`bash
+```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
-\`\`\`
+```
 
 ## Documentação da API
 
